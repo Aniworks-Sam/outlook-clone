@@ -1,0 +1,90 @@
+.app1 {
+  margin: 0rem 0rem 0 3rem;
+  background-color: rgba(212, 209, 209, 0.13);
+}
+.app1_width {
+  max-width: 100%;
+  height: 31.5rem;
+}
+.app4_width {
+  width: 150%;
+  height: 25rem;
+  padding: 2rem 0;
+}
+.app2 {
+  margin: 4rem auto 0 auto;
+  width: 80%;
+  height: 56rem;
+  background-color: rgba(212, 209, 209, 0.13);
+  box-shadow: 0.1rem 0.1rem 0.8rem 0rem rgba(85, 85, 85, 0.528);
+}
+.app3 {
+  margin: 4rem auto 0 auto;
+  width: 60%;
+  height: 56rem;
+  background-color: rgba(212, 209, 209, 0.13);
+  /* border-radius: 1.5rem 1.5rem 0 0; */
+  box-shadow: 0.1rem 0.1rem 0.8rem 0rem rgba(85, 85, 85, 0.528);
+}
+
+.SentMailNav_search {
+  height: 5rem;
+}
+.SentMailNav_Bar {
+  display: flex;
+  justify-content: flex-end;
+}
+.SentMailNav_Bar_container {
+  /* background-color: #f3f2f1; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SentMailnav_align {
+  display: flex;
+}
+.SentMailNav_Bar_hide {
+  display: none;
+}
+
+.SentMail_Bar {
+  list-style: none;
+  display: flex;
+  /* padding: 0.5rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+.SentMail_message {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+.SentMail_Bar_items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.SentMail_Bar_items:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.SentMail_Bar_icon {
+  color: rgb(6, 154, 234);
+}
+/* .minimise {
+  font-weight: 900;
+  font-size: 1.3rem;
+} */
+.maximize {
+  font-size: 1.7rem;
+  border-top: 0.3rem solid #555;
+  color: rgba(212, 209, 209, 0.233);
+}
+.sideContentName {
+  margin: 1rem 1rem 0 3rem;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 150%;
+}

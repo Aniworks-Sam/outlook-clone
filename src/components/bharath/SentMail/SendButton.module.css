@@ -1,0 +1,69 @@
+.Rooster {
+  height: 10rem;
+}
+.send_button {
+  display: flex;
+  margin: 0rem 1rem;
+  justify-content: space-between;
+  z-index: 0;
+}
+.send {
+  display: flex;
+}
+.send_button1 {
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.3rem 0 0 0.3rem;
+  border: none;
+  background-color: #1a73e8;
+  margin-left: 1rem;
+}
+.send_button_cancel {
+  padding: 0.7rem 2.4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+  margin-right: 2rem;
+}
+
+.send_button3 {
+  /* display: flex;
+  justify-content: flex-end; */
+  /* width: 100%; */
+  border-radius: 0.3rem;
+  /* margin-left: 45rem; */
+}
+.send_button33 {
+  border-radius: 0.3rem;
+}
+
+.sideButton {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  border-radius: 0.3rem;
+  margin-left: 2rem;
+}
+.send_button2 {
+  padding: 0 0.5rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  border: none;
+  border-left: 0.1rem solid #555;
+  background-color: #1a73e8;
+  cursor: pointer;
+}
+
+.send_button1:hover,
+.send_button2:hover {
+  box-shadow: 0.1rem 0.1rem 0.1rem 0rem #1a73e7;
+  cursor: pointer;
+}
+.send_button_cancel:hover {
+  box-shadow: 0.1rem 0.1rem 0.1rem 0rem rgba(153, 153, 153, 0.611);
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.imgContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imgContainer img {
+  width: 45rem;
+}
+
+.imgContainer p {
+  text-align: center;
+}
+
+.text1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.text2 {
+  font-size: 0.8rem;
+}
+
+.box .checkbox,
+.box .iconsOptions {
+  opacity: 0;
+}
+
+.box:hover .checkbox,
+.box:hover .iconsOptions {
+  opacity: 1;
+}
+/* .box:hover .avatar { display: none; } */
+
+.box .Mui-checked {
+  opacity: 1;
+}
+/* .box .Mui-checked ~ * .avatar { display: none; } */

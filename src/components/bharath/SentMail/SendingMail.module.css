@@ -1,0 +1,17 @@
+.sendingMail {
+  position: relative;
+  z-index: 100000000000;
+}
+.sendingMail_message {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: black;
+  color: #777;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+.sendingMail_position {
+  top: 27rem;
+  left: -25rem;
+  position: absolute;
+}

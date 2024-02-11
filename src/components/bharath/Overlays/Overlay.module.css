@@ -1,0 +1,154 @@
+.overlay {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4rem auto;
+  min-width: 60%;
+  height: 27rem;
+  position: absolute;
+  top: 4rem;
+  left: 25rem;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #555;
+  z-index: 10000;
+  border-radius: 0.5rem;
+}
+.sentOverlay {
+  display: grid;
+  grid-template-rows: 4rem 3rem 3rem;
+  min-width: 41%;
+  height: 10rem;
+  position: absolute;
+  top: 20rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #555;
+  z-index: 10000;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+}
+.scheduleOverlay {
+  margin: 2rem auto;
+  min-width: 25%;
+  height: 22rem;
+  position: absolute;
+  top: 20rem;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #555;
+  z-index: 10000;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+}
+.scheduleOverlay_calender {
+  margin: 4rem auto;
+  position: absolute;
+  /* width: 30%; */
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem #555;
+  top: 20rem;
+  left: 50%;
+  z-index: 10000;
+  height: 40rem;
+  display: grid;
+  grid-template-columns: 7rem 7rem 7rem 7rem 10rem;
+  grid-template-rows: 5rem 20rem 7rem;
+  font-size: 0.7rem;
+}
+
+.overylay_backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(172, 171, 171, 0.236);
+  backdrop-filter: blur(0.1px);
+}
+.overlay_cancel {
+  width: 100%;
+  cursor: pointer;
+}
+.overlayAlign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5rem 2rem;
+  font-size: 2.3rem;
+  color: black;
+  grid-column: 1/7;
+  grid-row: 1/2;
+  gap: 2rem;
+}
+.scheduleOverlayAlign {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+  grid-column: 1/ 7;
+}
+.calender {
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+.errorMsg {
+  margin: 2.5rem 2rem;
+  grid-column: 1/7;
+  grid-row: 2/3;
+}
+.name {
+  font-size: 1.5rem;
+  margin: 0rem 2rem;
+}
+.name2 {
+  font-size: 2.5rem;
+  color: black;
+  margin: 1rem;
+}
+.buttonsAlign {
+  display: flex;
+  gap: 1rem;
+  grid-column: 5/7;
+  grid-row: 3/4;
+  justify-self: end;
+}
+.calenderButtonAlign {
+  display: flex;
+  grid-row: 4/5;
+  grid-column: 4/7;
+  gap: 1rem;
+  justify-self: end;
+}
+.buttonsAlign {
+  display: flex;
+  gap: 1rem;
+  grid-column: 5/7;
+  grid-row: 3/4;
+  justify-self: end;
+}
+.selectorSchedule {
+  padding: 1rem 0rem 0rem 0rem;
+  width: 100%;
+}
+.selectorSchedule_item {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selectorSchedule_item:hover {
+  background-color: rgba(85, 85, 85, 0.07);
+  cursor: pointer;
+}
+.scheduleDateTime {
+  border-top: 0.1rem solid rgba(85, 85, 85, 0.265);
+}
+.errorName {
+  color: rgb(240, 7, 7);
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}

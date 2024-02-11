@@ -1,0 +1,91 @@
+.container {
+  margin: 10rem auto;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0rem rgba(85, 85, 85, 0.528);
+  max-width: 35rem;
+}
+.container_inputs {
+  padding: 2rem 8rem 5rem 5rem;
+}
+.label {
+  font-size: 2rem;
+}
+.container_h2 {
+  border-radius: 1rem 1rem 0 0;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+}
+.container_h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: red;
+  text-align: center;
+}
+.container_p {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin: 7rem 0 0 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.container_button {
+  padding: 0.7rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  background-color: rgb(6, 154, 234);
+  color: white;
+}
+
+.container_button:hover {
+  cursor: pointer;
+  box-shadow: 0.1rem 0rem 0.3rem 0rem #1a73e7;
+}
+
+.container_button_Link {
+  text-decoration: none;
+}
+.error {
+  color: rgb(240, 7, 7);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+h6 {
+  opacity: 0;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.input {
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  width: 25rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  border: 0.1rem solid #555;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0.1rem 0.1rem 0.8rem 0rem rgba(85, 85, 85, 0.528);
+  border: none;
+}
+.container_request {
+  font-size: 1.5rem;
+}
+.input1 {
+  background-color: white;
+  margin-bottom: 0.4rem;
+  padding: 0.7rem;
+  width: 25rem;
+  border: 0.2rem solid transparent;
+  border-radius: 1rem;
+}
+.input:invalid[name="true"] {
+  border: 0.2rem solid red;
+}
+.input:invalid[name="true"] ~ h6 {
+  opacity: 1;
+}
